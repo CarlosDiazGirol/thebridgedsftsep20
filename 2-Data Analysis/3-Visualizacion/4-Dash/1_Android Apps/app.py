@@ -16,7 +16,7 @@ fig = px.histogram(df, x="Rating", range_x=[0.8, 5.2])
 fig2 = px.box(df, x="Category", y="Rating", color="Category", range_y=[0.8, 5.2])
 
 app.layout = html.Div(children=[
-    html.H1(children='Dashboard aplicaciones Android 2.0'),
+    html.H1(children='Dashboard'),
 
     html.Div(children='''
         Primera app de aprendizaje con Dash
